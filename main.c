@@ -118,6 +118,7 @@ int main(void)
     vKey_Situation();
     vEncoder();
     vOLED_Situation();
+    OLED_ShowSignedNum(1,1,1,1);
   }
   /* USER CODE END 3 */
 }
